@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Review Blog</title>
+  <style>
+     
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f7ff;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0;
+  color: #ffcc00;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #e6e600;
+}
+
+/* Main Content Styles */
+main {
+  padding: 40px;
+}
+
+div {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+div h2 {
+  font-size: 24px;
+  margin-top: 0;
+  color: #004d99;
+}
+
+div img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+div p {
+  line-height: 1.6;
+  color: #555;
+}
+
+div b {
+  color: #333;
+}
+
+div p:last-child {
+  margin-bottom: 0;
+}
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Book Review Blog</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Reviews</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <h2>Here is the review of my two favourite books:</h2>
+  <main>
+    <div>
+      <h2>Book Review: The Time Machine</h2>
+      <p><img src="time machine.jpeg" alt=""></p>
+      <p><b>Summary:</b> A Victorian scientist builds a machine that can travel through time. In the distant future he finds that, rather than advancing, human civilization has totally collapsed.</p>
+      <p><b>Author:</b> H.G. Wells</p>
+      <p><b>Published in:</b> 1895</p>
+      <p><b>Language:</b> English</p>
+      <p><b>Genre:</b> Science Fiction</p>
+      <p><b>Review:</b> I think everybody should read this book before they die because you don't always come across such wonderful stories everyday! I completed the book in two days and it is really interesting. Even though it is a small story, don't skip the pages as you will be confused because something happens in almost all the pages.. If you are looking for good science fiction books, do read this one because the author perfectly explains his theory on time travel and I swear you will find science interesting as you complete the book more than you did.</p>
+      <p><b>Rating:</b> 4.5/5</p>
+      <p><b>Write your review:</b><form>
+        <label for="message"></label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+    </form></p>
+    <p><button>Submit</button></p>
+    <p><b>Rate this book out of 5:</b><label for="book-rating"></label>
+      <input type="range" id="book-rating" name="book-rating" min="0" max="5" step="1" value="0" oninput="ratingValue.value = bookRating.value">
+      <output name="ratingValue" id="ratingValue" class="rating-value"></output></p>
+    
+    </div>
+    
+    <div>
+      <h2>Book Review: The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness</h2>
+      <p><img src="money.jpeg" alt=""></p>
+      <p><b>Summary:</b> The field of finance, including investment, personal finance, and business decisions, is typically presented as a mathematical one, where we are given precise instructions based on data and formulas. However, people in the real world don't use spreadsheets to make important financial decisions. At the dinner table or in the conference room, people mix in their own backgrounds, perspectives, egos, prides, marketing strategies, and peculiar motivations to come up with these decisions.</p>
+      <p><b>Author:</b> Morgan Housel</p>
+      <p><b>Published in:</b> 2020</p>
+      <p><b>Language:</b> English</p>
+      <p><b>Genre:</b> Finance, Investing, Money management</p>
+      <p><b>Review:</b>  "The Psychology of Money" offers valuable lessons that can benefit anyone. It's a book that I will undoubtedly return to time and time again, as its lessons are truly timeless.</p>
+      <p><b>Rating:</b> 4.8/5</p>
+      <p><b>Write your review:</b><form>
+        <label for="message"></label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+    </form></p>
+    <p><button>Submit</button></p>
+    <p><b>Rate this book out of 5:</b><label for="book-rating"></label>
+      <input type="range" id="book-rating" name="book-rating" min="0" max="5" step="1" value="0" oninput="ratingValue.value = bookRating.value">
+      <output name="ratingValue" id="ratingValue" class="rating-value"></output></p>
+    </div>
+  </main>
+  
+</body>
+</html>
