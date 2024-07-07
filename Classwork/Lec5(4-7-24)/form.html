@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>input</h1>
+    <!--tells what action will perform when our form gets submitted-->
+    <form action="">
+        <input type="text"><br>
+        <input type="password"><br>
+        <input type="date"><br>
+        <input type="time"><br>
+        <input type="number"><br>
+        <input type="color"><br>
+        <input type="checkbox"><br>
+        <input type="radio"><br>
+        <input type="range"><br>
+        <input type="image"><br>
+        <input type="search"><br>
+        <h1>placeholder and labels</h1>
+        <label for="username">
+            unername:
+        </label>
+        <input type="text" placeholder="username" id="username"><br>
+        <label for="password">
+            password:
+        </label>
+        <input type="password" placeholder="password" id="password"><br>
+        <button type="submit">
+            submit
+        </button>
+        <button type="reset">
+            reset
+        </button>
+        <button type="menu">
+            menu
+        </button><br>
+        <h1>radio button</h1>
+        select gender: <label> <input type="radio" name="gender" value="male" checked> Male </label>
+         <label> <input type="radio" name="gender" value="female"> Female </label><br>
+         <form> <label for="dropdown">Select Group:</label> <select id="dropdown" name="dropdown">
+             <option value="">Choose an option</option> <option value="option1">G24</option>
+              <option value="option2">G25</option> <option value="option3">G26</option> </select>
+             </form><br>
+             <h1>range</h1>
+             <label for="Attendance">Attendance</label>
+             <input type="range" min="0" max="100" name="Attendance" step="5" value="80">
+    </form>
+</body>
+</html>
