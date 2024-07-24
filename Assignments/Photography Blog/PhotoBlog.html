@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photography Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: brown;
+      color: #fff;
+      
+      padding: 1em 0;
+      height: 40px;
+      padding-left: 140px;
+      padding-bottom: 30px;
+      padding-top: 4px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      padding: 60px;
+      margin-left: 75px;
+      margin-right: 100px;
+      flex-wrap: wrap;
+      line-height: 10px;
+    }
+
+    .image-container {
+      padding: 5px;
+    }
+
+    img {
+      width: 400px;
+      height: 200px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    img:hover {
+        opacity: 0.5;
+    }
+    .image1 {
+        width: 50px;
+        height: 50px;
+        margin-left: 50px;
+    }
+    .DIV2 {
+        width: 1200px;
+        background-color: rgb(214, 208, 208);
+        height: 110px;
+        border-radius: 15px;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-top: 30px;
+    }
+    .text1 {
+        color: blue;
+        font-weight: bold;
+        font-size: 30px;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    .text2 {
+        padding-left: 15px;
+        padding-bottom: 100px;
+        line-height: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    
+    <h1>Photography Blog
+    </h1>
+  </header>
+  <div class="DIV2">
+    <p class="text1">Images</p>
+    <p class="text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed pariatur est laboriosam mollitia voluptate ad repellat consectetur repellendus quas commodi?</p>
+  </div>
+
+  <section>
+    <div class="container">
+        <div class="image-container">
+          <img src="nature1.jpg" alt="Image 1">
+        </div>
+        <div class="image-container">
+          <img src="nature2.jpg" alt="Image 2">
+        </div>
+        <div class="image-container">
+          <img src="nature3.jpg" alt="Image 3">
+        </div>
+        <div class="image-container">
+          <img src="nature4.jpg" alt="Image 4">
+        </div>
+        <div class="image-container">
+          <img src="nature5.jpg" alt="Image 4">
+        </div>
+      </div>
+
+  </section>
+    
+</body>
+</html>
