@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission Form</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="abc.css">
+</head>
+<body>
+    <header>
+        <img class="im1" src="cb_top_right_icon.png" alt="">
+    </header>
+    <div class="container mt-5">
+        
+        <h1 class="heading">Chitkara University</h1>
+        <h2 class="text-center mb-4">College Admission Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" id="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="lastName" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" class="form-control" id="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select class="form-control" id="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <textarea class="form-control" id="address" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="highSchool">School Name</label>
+                <input type="text" class="form-control" id="highSchool" required>
+            </div>
+            <div class="form-group">
+                <label for="graduationYear">Year of Passing</label>
+                <input type="number" class="form-control" id="graduationYear" required>
+            </div>
+            <div class="form-group">
+                <label for="gpa">Percentage Class 12th</label>
+                <input type="text" class="form-control" id="gpa" required>
+            </div>
+            <div class="form-group">
+                <label for="major">Intended Course</label>
+                <select class="form-control" id="course" required>
+                    <option value="">Select Course</option>
+                    <option value="male">B.Tech</option>
+                    <option value="female">B.Sc</option>
+                    <option value="other">B.Com</option>
+                    <option value="other">Bca</option>
+                    <option value="other">B.Ed</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="extraCurricular">Extracurricular Activities</label>
+                <textarea class="form-control" id="extraCurricular" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
