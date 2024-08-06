@@ -1,0 +1,105 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #eee;
+    border-color: red;
+    border-style: double;
+  }
+  
+  .left-column, .right-column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Left column styles */
+  .profile {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info, .skills {
+    margin-bottom: 40px;
+  }
+  
+  /* Right column styles */
+  .about, .experience, .education {
+    margin-bottom: 40px;
+  }
+  
+  .job, .degree {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .left-column, .right-column {
+      flex: auto;
+      padding: 0;
+    }
+  
+    .profile img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .full-name {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  .first-name {
+    font-weight: 700;
+  }
+  
+  .last-name {
+    font-weight: 300;
+  }
+  .para {
+    font-size: medium;
+  }
+  .separator {
+    height: 850px;
+    display: inline-block;
+    border-left: 2px solid #999;
+    margin: 0px 10px;
+    color: red;
+  }
+  .title {
+    letter-spacing: 2px;
+    color: #54AFE4;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
