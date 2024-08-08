@@ -1,0 +1,28 @@
+*{
+    font-size: 20px;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#superheros{
+    text-decoration: line-through;
+    color: blue;
+}
+
+.super{
+    background-color: brown;
+    color: white;
+}
+
+
+p{
+    background-color: orange;
+}
+
+input[type="password"]{
+    background-color: green;
+}
+
+input[type="text"]{
+    background-color: pink;
+}
